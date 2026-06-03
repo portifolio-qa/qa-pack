@@ -80,6 +80,12 @@ class ApiTest {
 
 ```
 
+## Repositório
+
+Este repositório contém apenas a documentação pública da extensão.
+
+O código-fonte da extensão é mantido em um repositório privado.
+
 ##  Diferenciais
 Facilita a configuração inicial do ambiente
 Ajuda a padronizar o VS Code para QA Automation
@@ -93,6 +99,9 @@ Pode ser usado como base para times de QA
 
 QA Analyst | SDET | Java Automation | API Testing
 
+## Licença
+
+A documentação deste projeto pode ser utilizada apenas para fins de consulta e apresentação do projeto.
 
 
 
