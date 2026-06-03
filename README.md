@@ -1,42 +1,40 @@
-# QA Avancado Pack
+# QA Avancado Pack Docs
 
-Pacote de extensões para QA Automation com Java.
+Documentação pública da extensão **QA Avancado Pack**, um Extension Pack para Visual Studio Code focado em **QA Automation com Java**.
 
-📦 **[Instale agora no VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=RoseDias.qa-pack&ssr=false#overview)**
+## Sobre a extensão
 
-## O que este pacote instala
+O **QA Avancado Pack** foi criado para facilitar a configuração de um ambiente profissional de automação de testes no VS Code.
 
-Este Extension Pack foi criado para facilitar o ambiente de trabalho de QA/SDET com foco em automação Java.
-
-Inclui extensões para:
+Ele reúne extensões úteis para profissionais de qualidade de software que trabalham com:
 
 - Java
 - Maven
-- Testes automatizados
-- REST APIs
-- Cucumber/Gherkin
-- Produtividade no VS Code
-
-## Indicado para
-
-QA Analysts, SDETs, automadores de testes e desenvolvedores que trabalham com:
-
-- Java
-- RestAssured
-- Selenium
 - JUnit
-- Maven
+- Selenium
+- RestAssured
 - Cucumber
-- APIs
+- Gherkin
+- APIs REST
+- Automação de testes
 
 ## Objetivo
 
-Padronizar rapidamente um ambiente profissional de automação de testes no VS Code.
+O objetivo da extensão é reduzir o tempo de configuração inicial do ambiente de QA/SDET e padronizar o uso do VS Code para projetos de automação Java.
 
-## Como usar
+## Documentação publicada
 
-Após instalar o pacote, o VS Code irá sugerir ou instalar as extensões incluídas no Extension Pack.
+A documentação oficial pode ser acessada em:
 
-## Autora
+[📘 Acessar documentação](https://SEU-USUARIO.github.io/qa-pack/)
 
-Rose Dias
+## Instalação
+
+A extensão está disponível no Visual Studio Code Marketplace:
+
+[📦 Instalar QA Avancado Pack](https://marketplace.visualstudio.com/items?itemName=SEU-PUBLISHER.qa-pack)
+
+Também é possível instalar diretamente pelo VS Code pesquisando por:
+
+```text
+QA Avancado Pack
