@@ -101,7 +101,7 @@ QA Analyst | SDET | Java Automation | API Testing
 
 ## Licença
 
-A documentação deste projeto pode ser utilizada apenas para fins de consulta e apresentação do projeto.
+Este repositório contém apenas a documentação pública da extensão. O código-fonte da extensão é mantido em um repositório privado.
 
 
 
