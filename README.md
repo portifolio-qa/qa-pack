@@ -10,11 +10,11 @@ O código-fonte da extensão é mantido em um repositório privado.
 
 ## Documentação publicada
 
-https://SEU-USUARIO.github.io/qa-pack-docs/
+https://rosedias.github.io/qa-pack-docs/
 
 ## Marketplace
 
-https://marketplace.visualstudio.com/items?itemName=SEU-PUBLISHER.qa-pack
+https://marketplace.visualstudio.com/items?itemName=rosedias.qa-pack
 
 ## Autora
 
