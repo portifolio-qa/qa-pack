@@ -26,7 +26,7 @@ Antes de instalar a extensão, recomenda-se ter:
 
 Acesse a página da extensão no Marketplace:
 
-[📦 Instalar QA Avancado Pack](https://marketplace.visualstudio.com/items?itemName=SEU-PUBLISHER.qa-pack)
+[📦 Instalar QA Avancado Pack](https://marketplace.visualstudio.com/items?itemName=rosedias.qa-pack)
 
 Depois clique em:
 
@@ -53,7 +53,7 @@ QA Avancado Pack
 Também é possível instalar pelo terminal:
 
 ```Bash
-code --install-extension SEU-PUBLISHER.qa-pack
+code --install-extension rosedias.qa-pack
 ```
 
 Exemplo:

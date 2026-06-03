@@ -56,7 +56,7 @@ Este pacote é indicado para:
 
 A extensão está disponível no Visual Studio Code Marketplace:
 
-[📦 Instalar QA Avancado Pack](https://marketplace.visualstudio.com/items?itemName=SEU-PUBLISHER.qa-pack)
+[📦 Instalar QA Avancado Pack](https://marketplace.visualstudio.com/items?itemName=rosedias.qa-pack)
 
 Também é possível instalar diretamente pelo VS Code pesquisando por:
 
