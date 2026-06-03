@@ -62,3 +62,18 @@ Também é possível instalar diretamente pelo VS Code pesquisando por:
 
 ```text
 QA Avancado Pack
+```
+
+## Objetivo
+
+O objetivo do QA Avancado Pack é padronizar rapidamente um ambiente de automação de testes com Java no VS Code, facilitando a produtividade de profissionais de QA e SDET.
+
+## Autora
+
+### Rose Dias
+QA Analyst | SDET | Java Automation | API Testing
+
+
+
+
+
