@@ -49,4 +49,57 @@ Ou pesquise no VS Code por:
 QA Avancado Pack
 ```
 
+## Como usar
+
+Após instalar o pacote, o VS Code irá instalar ou sugerir as extensões configuradas no Extension Pack.
+
+Depois disso, você poderá criar e manter projetos de automação Java com mais produtividade.
+
+## Exemplo de automação Java com RestAssured
+
+```java
+
+import io.restassured.RestAssured;
+import org.junit.jupiter.api.Test;
+
+import static io.restassured.RestAssured.given;
+
+class ApiTest {
+
+    @Test
+    void deveRetornarStatus200() {
+        RestAssured.baseURI = "https://api.exemplo.com";
+
+        given()
+            .when()
+            .get("/usuarios")
+            .then()
+            .statusCode(200);
+    }
+}
+
+```
+
+##  Diferenciais
+Facilita a configuração inicial do ambiente
+Ajuda a padronizar o VS Code para QA Automation
+Reúne extensões focadas em Java e testes
+Apoia projetos com API, BDD e automação funcional
+Pode ser usado como base para times de QA
+
+## Autora
+
+### Rose Dias
+
+QA Analyst | SDET | Java Automation | API Testing
+
+
+
+
+
+
+
+
+
+
 
