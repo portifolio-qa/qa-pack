@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exemplos de uso | QA Avancado Pack</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="QA Avancado Pack">
+      <img src="assets/logo.png" alt="Logo QA Avancado Pack">
+      <span><strong>QA Avancado Pack</strong><small>Documentação</small></span>
+    </a>
+    <nav class="top-actions" aria-label="Links principais">
+      <a class="btn btn-primary" href="https://marketplace.visualstudio.com/items?itemName=SEU-PUBLISHER.qa-pack" target="_blank" rel="noopener">Instalar no VS Code Marketplace</a>
+      <a class="btn btn-secondary" href="https://github.com/SEU-USUARIO/qa-pack-docs" target="_blank" rel="noopener">GitHub Docs</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <nav aria-label="Menu da documentação">
+      <a href="index.html">Início</a>
+      <a href="instalacao.html">Instalação</a>
+      <a href="extensoes-incluidas.html">Extensões incluídas</a>
+      <a href="exemplos-de-uso.html">Exemplos de uso</a>
+      <a href="sobre.html">Sobre o projeto</a>
+    </nav>
+  </aside>
+
+  <main class="main-content page-content">
+    <div class="page-title">
+      <span class="eyebrow">Referências práticas</span>
+      <h1>Exemplos de uso</h1>
+      <p>Modelos simples para iniciar projetos de automação Java com APIs REST, BDD e estrutura organizada.</p>
+    </div>
+
+    <section class="content-section">
+      <h2>Teste Java com RestAssured</h2>
+      <pre><code>import org.junit.jupiter.api.Test;
+import static io.restassured.RestAssured.given;
+
+class UsuarioApiTest {
+    @Test
+    void deveRetornarStatus200AoConsultarUsuarios() {
+        given()
+            .baseUri("https://api.exemplo.com")
+        .when()
+            .get("/usuarios")
+        .then()
+            .statusCode(200);
+    }
+}</code></pre>
+    </section>
+
+    <section class="content-section">
+      <h2>Cenário Cucumber</h2>
+      <pre><code>Feature: Login
+
+  Scenario: Login com credenciais válidas
+    Given que o usuário está na tela de login
+    When informa usuário e senha válidos
+    Then deve visualizar a área logada</code></pre>
+    </section>
+
+    <section class="content-section">
+      <h2>Estrutura de projeto</h2>
+      <pre><code>src
+├── main
+│   └── java
+│       └── br/com/qa
+│           ├── clients
+│           ├── config
+│           └── utils
+└── test
+    ├── java
+    │   └── br/com/qa
+    │       ├── steps
+    │       ├── runners
+    │       └── tests
+    └── resources
+        └── features</code></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">© 2026 Rose Dias. Todos os direitos reservados.</footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
